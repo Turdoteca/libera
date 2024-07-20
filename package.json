@@ -1,0 +1,28 @@
+{
+  "name": "libera",
+  "version": "1.0.0",
+  "description": "Free open-source personal or organization library",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "npx nodemon ./app.ts",
+    "start": "npx ts-node ./app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turdoteca/libera.git"
+  },
+  "keywords": [
+    "Library",
+    "Open-Source"
+  ],
+  "author": "Turdo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Turdoteca/libera/issues"
+  },
+  "homepage": "https://github.com/Turdoteca/libera#readme",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  }
+}
